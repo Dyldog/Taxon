@@ -1,5 +1,33 @@
 # Taxon
 
-`TaxonCL  make-index --title "Recipes" --note-folder ~/Documents/Zettlekasten/ --start-note 0g --output-file-title 0g`
+Tools for a zettelkasten
+
+## Make Index
+
+`TaxonCL make-index --title "Recipes" --note-folder ~/Documents/Zettlekasten/ --start-note 0g --output-file-title 0g`
+
+Generates indexes by using the note IDs (taken from the filename) for ordering and indendation, e.g:
+
+
+
+```md
+- Zettelkasten  [[4c]]
+    - Principle of Atomicity [[4c1]]
+        - Evergreen Note [[4c1a]]
+        - Transient notes [[4c1b]]
+    - Zettelkastens Suck When They're Noisy [[4c2]]
+- Note taking system [[4d]]
+    - Note taking [[4d1]]
+        - Writing [[4d1a]]
+    - Note Taking App [[4d2]]
+- PARA [[4e]]
+    - Digital Organisation System [[4e1]]
+    - Tiago Forte [[4e2]]
+- Methods for Creating Note IDs [[4f]]
+```
+
+## Swap Links
 
 `TaxonCL swap-links 1f1 1f ~/Documents/Zettlekasten/`
+
+Finds all instances of either link within the notes and swaps them with the other other
