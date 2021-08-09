@@ -94,6 +94,7 @@
 		6273E9D226BD3A27009DD368 /* TaxonMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxonMacTests.swift; sourceTree = "<group>"; };
 		6273E9D426BD3A27009DD368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6273E9DC26BD3A46009DD368 /* TreeBitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeBitTests.swift; sourceTree = "<group>"; };
+		62C2041126C165E700517E19 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		62EF0E7726BE5FB000C4A203 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		62EF0E7E26BE5FE500C4A203 /* Zettelkasten.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zettelkasten.swift; sourceTree = "<group>"; };
 		62EF0E8126BE600100C4A203 /* Array+MakeIndexNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+MakeIndexNote.swift"; sourceTree = "<group>"; };
@@ -132,6 +133,7 @@
 		6200733226BBFA85004E5A84 = {
 			isa = PBXGroup;
 			children = (
+				62C2041126C165E700517E19 /* README */,
 				62EF0E7A26BE5FBE00C4A203 /* Shared */,
 				6200733D26BBFA85004E5A84 /* TaxonMac */,
 				6273E9D126BD3A27009DD368 /* TaxonMacTests */,
